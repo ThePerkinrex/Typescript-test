@@ -9,5 +9,9 @@ function component(): JQuery {
 }
 
 $(() => {
+    let hello = 'HELLO'
+    $('body').append(hello);
     $('body').append(component());
+    hello = 'BYE'
+    $('body').append(hello);
 });
