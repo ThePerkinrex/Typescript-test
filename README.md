@@ -21,3 +21,7 @@ This is equal to
 ```js
 alert('WTF')
 ```
+
+To debug a project in TS (this one is only frontend) I'm using
+the VSCode Chrome debugger extension, with which you can setup breakpoints on your TS
+code (If webpack & tsconfig are setup with sourcemaps)
